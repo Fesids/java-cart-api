@@ -1,0 +1,130 @@
+.link {
+    text-decoration: none;
+}
+
+.book-image{
+    height: 340px;
+    width: 420px;
+}
+
+.price-style{
+    color: blue;
+    font-size: 210%;
+}
+
+
+.del-btn{
+    margin-right: 3px;
+}
+
+.mr{
+    margin-right: 8px;
+}
+
+// login style
+.auth-sec{
+    .err{
+        color: red;
+    }
+}
+
+.layout{
+    
+    height: 100%;
+
+    .navbar{
+        background-color: teal;
+        color: white;
+        
+        .container-fluid{
+            color: white;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .content {
+        height: 100%;
+
+        .home{
+            display: flex;
+            flex-direction:column;
+        }
+    }
+}
+
+// POST STYLE
+
+.post{
+    background-color: rgb(128, 128, 128, 0.2);
+    margin-bottom: 5px;
+
+    .post-image{
+        background-color: white;
+        border-radius: 15px;
+        min-height: 150px;
+        min-width: 95px;
+        max-width: 40%;
+        margin: 15px 12px;
+    }
+
+    .post-content{
+        margin: 15px 12px;
+        color: white;
+
+        h1{
+            color: teal;
+        }
+
+        .btn{
+            background-color: teal;
+            color: white;
+        }
+    }
+}
+
+.post-single{
+    .post-content{
+        .author-post-img{
+            min-height: 16px;
+            min-width: 17px;
+            max-height: 45px;
+            max-width: 40px;
+            border-radius: 20px;
+            background-color: white;
+        }
+    }
+}
+// WRITE style
+
+
+.write{
+    display: flex;
+    height: 45%;
+    
+    form{
+        width: 100%;
+        height: 80%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        flex-direction: row;
+        .form-content{
+           
+            
+        }
+
+        .left{
+            
+            .cat-select{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+    }
+
+   
+}
